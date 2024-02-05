@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Create a program that defines a function called isPrime which takes a
+positive integer as a parameter and returns true if the number is
+prime and false otherwise. Prompt the user for a number and use
+the function to determine if it's a prime number. -->
+
+<script>
+  var num = prompt("Enter a Positive Number: ")
+
+function isPrime(num) {
+if (num>=1) {
+  if (num%2===1) {
+  document.write(" your number is Prime Number")
+    
+  } else {
+  document.write(" your number is Not Prime Number")
+    
+  }
+} else {
+  document.write("Sorry your number is invalid(positive)")
+}
+
+isPrime(num);
+}
+</script>
+
+
+
+</body>
+</html>
